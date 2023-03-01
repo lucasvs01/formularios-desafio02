@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BFD7E4;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+
+    width: 100%;
+    height: 465px;
+    background-color: #293241;
+}
+
+
+header {
+    height: 358px;
+    width: 750px;
+    margin: 107px auto 0;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 36px;
+    line-height: 45px;
+
+    margin: 0 auto 0;
+    width: 282px;
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 0 auto 0;
+    width: 391px;
+    height: 46px;
+}
+
+header img {
+    margin: 0px 281px 0 244px;    
+}
+
+header h2 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    padding: 50px 275px;
+    margin: 32px auto 0;
+    width: 100%;
+    
+    background-color: #F67669;
+    border-radius: 20px 20px 0 0;
+}
+
+form {
+    height: 1075px;
+    width: 750px;
+
+    margin: 0 auto 392px;
+    padding: 32px 64px 64px;
+
+    background-color: #ffffff;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    border: none;    
+}
+
+fieldset .fielset-wrapper {
+    display: flex;
+    gap: 22px;
+}
+
+.fielset-wrapper-name, .fielset-wrapper-email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 100%;
+}
+
+fieldset input {
+    height: 56px;
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+    text-align: center;
+}
+
+fieldset legend {
+    padding-bottom: 8px;
+    margin: 0 auto 0;
+    border-bottom: 1px solid #E6E6F0;
+
+    width: 100%;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #253B51;
+
+    text-align: center;
+}
+
+fieldset label {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+}
+
+fieldset label span{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #C1BCCC;
+}
+
+.fielset-wrapper-mentor {
+    margin: 32px 0 36px;
+}
+
+.fildset-wrapper-mentor-information {
+    display: flex;
+    flex-direction: column;
+
+    margin: 32px auto 0px;
+}
+
+.fildset-wrapper-mentor-information-select {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ select {
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    width: 50%;
+    height: 56px;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #4E4958;
+    
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='7' viewBox='0 0 10 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.467433 1.12176C0.759086 0.827629 1.23396 0.825622 1.52808 1.11727L5 4.55997L8.47192 1.11727C8.76604 0.825622 9.24091 0.827629 9.53257 1.12176C9.82422 1.41589 9.82221 1.89076 9.52808 2.18241L5.52808 6.14874C5.23571 6.43865 4.76429 6.43865 4.47192 6.14874L0.471916 2.18241C0.177788 1.89076 0.175781 1.41589 0.467433 1.12176Z' fill='%23F67669'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: right 16px top 27px;
+}
+
+ .fildset-wrapper-mentor-information-textarea {
+    width: 100%;
+    margin: 32px auto 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+
+
+ .fildset-wrapper-mentor-information-textarea textarea{
+    width: 608px;
+    height: 167px; 
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+    text-align: center;
+}
+
+.fildset-wrapper-mentor-information-checkbox {
+    position: relative;
+}
+
+.fildset-wrapper-mentor-information-checkbox label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.fildset-wrapper-mentor-information-checkbox label::before {
+    content: "";
+    height: 24px;
+    width: 24px;
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+.fildset-wrapper-mentor-information-checkbox input:checked + label::before{
+    background-image: url(/imagens/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.fildset-wrapper-mentor-information-checkbox input{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    top: 0;
+    left: 0;
+    
+    opacity: 0;
+
+    border: red 1px solid;
+}
+
+
+.fildset-wrapper-mentor-information-checkbox input:focus + label::before{
+ outline: 1px solid black;
+}
+
+.fielset-wrapper-apointement legend{
+    padding-bottom: 10px;
+    margin-bottom: 31px;
+}
+
+
+.fielset-wrapper-apointement-content {
+    display: flex;
+    gap: 32px;
+}
+
+.fielset-wrapper-apointement-date {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 8px;
+}
+
+.fielset-wrapper-apointement-time {
+    display: flex;
+    width: 50%;
+    gap:10px;
+}
+
+.fielset-wrapper-apointement-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+button {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 64px;
+    padding: 12.5px 286px;
+
+    width: 100%;
+
+    background-color: #F67669;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+button:hover {
+    background-color: #f85f4e;
+
+}
+
+
+input:invalid{
+
+    border: #f85f4e 1px solid;
+}
+
+select:invalid{
+
+    border: #f85f4e 1px solid;
+}
+
+textarea:invalid{
+
+    border: #f85f4e 1px solid;
+}
